@@ -1,0 +1,98 @@
+body{
+background-color: antiquewhite;
+}       
+                                          /* trick for writing persian */
+.text{
+    direction:rtl;
+    border:1px solid black;
+    padding: 3px;
+    display: block;
+    overflow-y: scroll;
+    height: 100px;
+    width: 200px;
+}
+                                         /* blocks */
+.div, .div2, .div3{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    overflow-y: scroll;
+}
+                                        /* Text and image */
+.text2{
+    column-count: 2;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    word-spacing: 2px;
+}
+#text3{
+    border: 5px dotted salmon;
+    height: 144px;
+    column-count: 2;
+    padding:10px ;
+    border-radius: 10px;
+}
+.image{
+    float: right;
+    margin: 10px 5px 0px 0px
+}
+                                       /* Line aires */
+
+
+.degerade{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0% 10%;
+    
+}
+.lineaire-simple{
+    background: linear-gradient(blue, pink);
+    width: 100px;
+    height: 100px;
+}
+
+.degrade-horizental{
+    background: linear-gradient(to right, blue,pink);
+    width: 100px;
+    height: 100px;
+}
+
+.degrade-spacement-auto{
+    background: linear-gradient(red, yellow, blue);
+    width: 100px;
+    height: 100px;
+}
+
+                            /* list and header */
+.body{
+    background-color: yellow;
+    border: 2px dashed black;
+    height: 200px;
+    padding: 0 50px;
+}
+ul>li{
+    list-style-type: none;
+    padding: 7px;
+
+ 
+}
+ul{
+    border: 2px solid black;
+    margin: -2px -10px;
+    padding: 5px 0px;
+    background: linear-gradient(to right, rgb(97, 97, 187),rgb(80, 215, 50));
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(141, 44, 136);
+    border: 5px solid rgb(44, 125, 126);
+    border-radius: 45%;
+}
